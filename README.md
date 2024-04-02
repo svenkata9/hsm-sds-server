@@ -22,7 +22,7 @@ Prerequisites for using Istio mTLS private key protection with SGX:
 - Linux kernel version 5.11 or later on the host (in tree SGX driver)
 - Custom CA which support [Kubernetes CSR API](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/)
 - [Intel® KMRA service](https://www.intel.com/content/www/us/en/developer/topic-technology/open/key-management-reference-application/overview.html) (Optional, needs to be set up only when remote attestation required, which can be set through `NEED_QUOTE` flag in the chart.)
-- [cripto-api-toolkit](https://github.com/intel/crypto-api-toolkit) in the host (optional, only needed if you want to build sds-server image locally)
+- [Crypto API Toolkit for Intel® SGX](https://github.com/intel/crypto-api-toolkit) in the host (optional, only needed if you want to build sds-server image locally)
 
 ## Getting started
 
